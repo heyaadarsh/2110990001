@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: purple;
+    color: white;
+}
+.container {
+    background: #4b0082;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.results {
+    margin-top: 20px;
+}
+.results p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    margin-top: 10px;
+}
+button {
+    background-color: #fff;
+    color: purple;
+    cursor: pointer;
+}
